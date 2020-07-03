@@ -27,11 +27,13 @@ const businesses = [
 
 class App extends React.Component {
   render() {
-    <div className="App">
-      <h1>ravenous</h1>
-      <SearchBar/>
-      <BusinessList businesses = {businesses} />
-    </div>
+    return (
+      <div className="App">
+        <h1>ravenous</h1>
+        <SearchBar />
+        <BusinessList businesses = {businesses} />
+      </div>
+    );
   }
 }
 
